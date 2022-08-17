@@ -13,4 +13,8 @@ public interface IEmployeeService {
 	public List<Employee> getEmployees();
 	
 	public Optional<Employee> getEmployeeById(int id);
+	
+	public void deleteEmployee(int id);
+	
+	public void deleteAll(Employee employee);
 }
